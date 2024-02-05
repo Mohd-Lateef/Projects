@@ -72,6 +72,7 @@ int main()
         printf("computer's turn : ");
         computer(random());
         result(i + 1, name);
+         printf("\nscore board:: %s = %d ,computer = %d", name, win, lose);
         for (int j = 0; j < 20; j++)
         {
             printf("-");
